@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
     <title>Contact Us</title>
 </head>
 <body>  
@@ -31,30 +31,37 @@
 
     <main>
         
-        <h1>Food and You</h1>
+       
        
         <div class="contactContainer">
 
-            <form>
+            <h1>Food and You</h1>
+
+            <form id="contactForm">
 
                 <div class="formSet">
                     <label for="name">Name:(Should be more than 5 characters)</label>
-                    <input type="text" name="name" id="name">
+                    <input type="text" class="control" name="name" id="name">
+                    <p class="errorMessage">Must enter atleast 6 characters</p>
                 </div>
 
                 <div class="formSet">
                     <label for="email">Email:(Enter a valid email addresss)</label>
-                    <input type="text" value="email@email" name="email" id="email">
+                    <input type="text" class="control" name="email" id="email">
+                     <p class="errorMessage">Enter valid email</p>
                 </div>
 
                 <div class="formSet">
                     <label for="subject">Subject:(Should be more than 15 characters)</label>
-                    <input type="text" name="subject" id="subject"> 
+                    <input type="text" class="control" name="subject" id="subject"> 
+                    <p class="errorMessage">Must enter atleast 16 characters</p>
                 </div>
 
                 <div class="formSet">
                     <label>Message(Should be more than 25 characters)</label>
-                    <textarea name="description" id="description" cols="30" rows="10" placeholder="Your Description"></textarea> 
+                    <textarea name="description" class="control" id="description" cols="20" rows="10" placeholder="Your Description"></textarea>                   
+                    <p class="errorMessage">Must enter atleast 26 characters</p>
+                
                 </div>
                 
                 <input type="submit" value="submit" id="submitButton"> 
