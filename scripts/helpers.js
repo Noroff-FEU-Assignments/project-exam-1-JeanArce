@@ -20,3 +20,19 @@ backToTopBtn.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+const burgerBtn = document.getElementById('burgerMenu');
+const closeMobileMenu = document.getElementById('closeMobileMenu');
+const menuList = document.querySelector('#menuList');
+
+burgerBtn.addEventListener('click', () => {
+
+    closeMobileMenu.classList.add('show');
+    menuList.classList.add('show');
+
+});
+
+closeMobileMenu.addEventListener('click', () => {
+    closeMobileMenu.classList.remove('show');
+    menuList.classList.remove('show');
+});
