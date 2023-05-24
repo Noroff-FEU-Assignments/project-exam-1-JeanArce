@@ -33,8 +33,7 @@ const validateEmail = (element, value) => {
 nameInput.addEventListener('input', (e) => {
     const { name, value } = e.target;
 
-    // console.log(name);
-    // console.log(value);
+   
 
     validateInput(nameInput, value, 5);
 
@@ -45,8 +44,7 @@ nameInput.addEventListener('input', (e) => {
 email.addEventListener('input', (e) => {
     const { name, value } = e.target;
 
-    // console.log(name);
-    // console.log(value);
+  
 
     validateEmail(email, value);
 });
@@ -54,8 +52,7 @@ email.addEventListener('input', (e) => {
 subject.addEventListener('input', (e) => {
     const { name, value } = e.target;
 
-    // console.log(name);
-    // console.log(value);
+
 
     validateInput(subject, value, 15);
 
@@ -66,8 +63,7 @@ subject.addEventListener('input', (e) => {
 description.addEventListener('input', (e) => {
     const { name, value } = e.target;
 
-    // console.log(name);
-    // console.log(value);
+ 
 
     validateInput(description, value, 25);
 });
