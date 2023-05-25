@@ -1,3 +1,5 @@
+import { fetchingData } from "./utility.js";
+
 
 const latestPostEndpoint = "https://www.jeanarcenal.no/wp-json/wp/v2/posts?_embed&per_page=5&orderby=date";
 
@@ -14,12 +16,9 @@ let prevButton;
 async function getWpPosts() {
     try {   
 
-        const fetchData = await fetch(latestPostEndpoint, {
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        });
+      
+
+        const fetchData = await fetchingData(latestPostEndpoint);
 
         const jsonData = await fetchData.json();
 

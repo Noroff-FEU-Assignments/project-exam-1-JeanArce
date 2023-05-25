@@ -1,3 +1,5 @@
+import { fetchingData } from "./utility.js";
+
 
 let currentPage = 1;
 let totalPosts = 0;
@@ -12,12 +14,14 @@ const getPostsEndpoint = (currentPageVal) => {
 
 const gettingPosts = async(endPointValue) => {
     
-    const fetchData = await fetch(endPointValue, {
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    });
+    // const fetchData = await fetch(endPointValue, {
+    //     method: 'GET',
+    //     headers: {
+    //         'Content-Type': 'application/json'
+    //     }
+    // });
+
+    const fetchData = await fetchingData(endPointValue);
 
     totalPosts = fetchData.headers.get('X-WP-Total');
     const jsonData = await fetchData.json();
