@@ -14,12 +14,7 @@ const getPostsEndpoint = (currentPageVal) => {
 
 const gettingPosts = async(endPointValue) => {
     
-    // const fetchData = await fetch(endPointValue, {
-    //     method: 'GET',
-    //     headers: {
-    //         'Content-Type': 'application/json'
-    //     }
-    // });
+ 
 
     const fetchData = await fetchingData(endPointValue);
 

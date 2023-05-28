@@ -11,13 +11,7 @@ const detailsPostEndpoint = `https://www.jeanarcenal.no/wp-json/wp/v2/posts/${id
 async function getPostDetails() {
 
     try {
-        // const fetchData = await fetch(detailsPostEndpoint, {
-        //     method: 'GET',
-        //     headers: {
-        //         'Content-Type': 'application/json'
-        //     }
-        // });
-
+      
         const fetchData = await fetchingData(detailsPostEndpoint);
         const jsonData = await fetchData.json();
 
