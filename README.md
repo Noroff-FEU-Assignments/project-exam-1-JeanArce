@@ -1,4 +1,6 @@
-## Project Exam 1
+# Project Exam 1: FODD BLOGPOSTS
+
+![screenshot](https://drive.google.com/uc?export=view&id=1_9235jvbfOOUkpGRH0Kuh9jwMAeaaTFv)
 
 ## Goal
 
