@@ -106,11 +106,11 @@ Here are the popular development tools used for building this website:
 
 ### Running
 
-Use Git commands (git add, git commit, git push) to track and commit the changes to the local repository.
-Push the committed changes to the GitHub repository using the command: git push -u origin main.
-Utilize version control practices, such as creating branches (git branch) for new features or bug fixes and merging them (git merge) back into the main branch.
-One.com as a web host.
-wordpress as a CMS
+- Use Git commands (git add, git commit, git push) to track and commit the changes to the local repository.
+- Push the committed changes to the GitHub repository using the command: git push -u origin main.
+- Utilize version control practices, such as creating branches (git branch) for new features or bug fixes and merging them (git merge) back into the main branch.
+- One.com as a web host.
+- wordpress as a CMS
 
 ## Contact
 
