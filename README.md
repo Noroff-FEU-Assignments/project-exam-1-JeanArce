@@ -102,6 +102,7 @@ Here are the popular development tools used for building this website:
   A repository on GitHub, which is a version control platform for managing this project.
   Clone the repository to the local machine using Git, which can be installed from git-scm.com.
   Initialize the repository with an empty HTML and CSS file. Open the terminal, navigate to the project folder, and use the command: git init
+- HOTJAR
 
 ### Running
 
