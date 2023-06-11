@@ -3,7 +3,7 @@
 ![screenshot](https://drive.google.com/uc?export=view&id=1_9235jvbfOOUkpGRH0Kuh9jwMAeaaTFv)
 
 
-Welcome to **Food adn You** a food blog that takes you on a mouthwatering journey through the diverse and captivating world of culinary delights. From exotic street food to traditional family recipes, we are here to celebrate the artistry, flavors, and stories behind every dish.
+Welcome to **Food and You** a food blog that takes you on a mouthwatering journey through the diverse and captivating world of culinary delights. From exotic street food to traditional family recipes, we are here to celebrate the artistry, flavors, and stories behind every dish.
 
 ## Description
 
@@ -108,6 +108,8 @@ Here are the popular development tools used for building this website:
 Use Git commands (git add, git commit, git push) to track and commit the changes to the local repository.
 Push the committed changes to the GitHub repository using the command: git push -u origin main.
 Utilize version control practices, such as creating branches (git branch) for new features or bug fixes and merging them (git merge) back into the main branch.
+One.com as a web host.
+wordpress as a CMS
 
 ## Contact
 
