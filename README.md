@@ -14,7 +14,6 @@ A **Food and You** is a food blog that takes readers on a flavorful journey thro
 3. Global Foodie Travel: Food and travel go hand in hand, and in this segment, we'll embark on culinary journeys to different corners of the globe. Through enticing food guides and travel itineraries, we'll introduce you to must-visit destinations for food lovers.
 4. Health and Wellness: Food is not only a source of pleasure but also a vital component of our well-being. In this section, we'll focus on nutritious and wholesome recipes that nourish the body and delight the senses. From plant-based meals bursting with flavor to expert advice on mindful eating, we'll empower you to make conscious choices that promote a healthy lifestyle without compromising on taste.
 
-
 ## Website Built with
 
 - HTML
