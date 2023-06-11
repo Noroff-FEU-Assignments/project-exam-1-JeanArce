@@ -1,4 +1,4 @@
-# Project Exam 1: FODD BLOGPOSTS
+# Project Exam 1: FOOD and YOU BLOGPOSTS
 
 ![screenshot](https://drive.google.com/uc?export=view&id=1_9235jvbfOOUkpGRH0Kuh9jwMAeaaTFv)
 
