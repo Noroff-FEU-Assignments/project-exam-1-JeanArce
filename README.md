@@ -2,68 +2,118 @@
 
 ![screenshot](https://drive.google.com/uc?export=view&id=1_9235jvbfOOUkpGRH0Kuh9jwMAeaaTFv)
 
-## Goal
 
-To put into practice the skills learned over your first year of studies.
+Welcome to **Food adn You** a food blog that takes you on a mouthwatering journey through the diverse and captivating world of culinary delights. From exotic street food to traditional family recipes, we are here to celebrate the artistry, flavors, and stories behind every dish.
 
-## Brief
-You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages:
--	Home page
--	About page
--	List of blog posts
--	Blog post specific pages
--	Contact page.
+## Description
 
-### Home Page
-The home page should have a ‘Latest Posts’ section which uses a carousel (slider) for users to click to view more posts. For example, by default the user can see four posts, then they can click an arrow on the right to view the next four posts, and click it again to view the next four posts. The user can also click back to view results they had previously seen. This must be implemented for desktop at least, but if you want a simpler layout for mobile, you can change it from being in a carousel.
+A **Food and You** is a food blog that takes readers on a flavorful journey through diverse cuisines. From exploring local dishes and seasonal recipes to sharing kitchen adventures and global foodie travel experiences, the blog celebrates the art and stories behind each dish. It also provides insights into health and wellness, promoting mindful eating and nutritious choices.
 
-### Blog Page
+1. Feature Local Cuisine: This section, explore the rich tapestry of flavors found in different regions. From the vibrant spices of Indian curries to the delicate balance of Japanese sushi, we'll delve into the essence of local cuisine, uncovering hidden gems and highlighting iconic dishes.
+2. Seasonal Sensations: Nature's bounty provides us with an array of ingredients throughout the year. From refreshing summer salads to cozy winter stews, we'll offer creative ideas that embrace the flavors and ingredients of each season.
+3. Global Foodie Travel: Food and travel go hand in hand, and in this segment, we'll embark on culinary journeys to different corners of the globe. Through enticing food guides and travel itineraries, we'll introduce you to must-visit destinations for food lovers.
+4. Health and Wellness: Food is not only a source of pleasure but also a vital component of our well-being. In this section, we'll focus on nutritious and wholesome recipes that nourish the body and delight the senses. From plant-based meals bursting with flavor to expert advice on mindful eating, we'll empower you to make conscious choices that promote a healthy lifestyle without compromising on taste.
 
-The blog posts page should show the first 10 blogs, and the user should click to view more results which then show underneath the first 10 blogs.
 
-### Blog Specific Page
+## Website Built with
 
-The content of the blog specific page should be dynamically built using a query string parameter based on whatever link the user clicked. The title of the blog specific page should change based on the blog that has been clicked on e.g. “My Blog | An Article I Wrote”.
+- HTML
 
-If images on the blog post page are clicked, a modal should appear giving the user a bigger view of that image. Clicking outside the image should hide the modal.
+  ````<!DOCTYPE html>
+  <html>
+  <head>
+  <title>Your Page Title</title>
+  </head>
+  <body>
+  <h1>Hello, World!</h1>
+  <p>This is a basic HTML document.</p>
+  </body>
+  </html>```
 
-### Contact page
+  ````
 
-Create a contact us page, there should be 4 textboxes on this page.
--	Name (Should be more than 5 characters long)
--	Email address (Must be a valid email address)
--	Subject (Should be more than 15 characters long)
--	Message content (Should be more than 25 characters long)
+- CSS
 
-Please use JavaScript for validation, show error messages if the values in the textboxes do not meet the requirements.
+  ````body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+  }
 
-### WordPress
+  h1 {
+    color: blue;
+  }
 
-The content for your website will be stored on a WordPress installation used as a Headless CMS. It’s important to note that we are only using WordPress to provide an API and add content for the blog. You should not submit a link to a WordPress site, but build your website using HTML, CSS and JavaScript and making a call to the WordPress REST API to fetch the data. 
+  p {
+    font-size: 16px;
+  }```
+  ````
 
-The project has two aspects:
--	API from your WordPress installation
--	Your website built with HTML, CSS and JavaScript
+  - JAVASCRIPT
 
-You will need to add at least 12 blogs for your website. You can use lorem ipsum for paragraphs if you need, but headings, images etc. should all make sense.
+  ````// Variables
+   var name = "John";
+   var age = 25;
+   var isStudent = true;
 
-Note that this is an exam, and therefore tutor support will be limited as per the study plan.
+   // Console output
+   console.log("Name:", name);
+   console.log("Age:", age);
+   console.log("Is Student:", isStudent);
 
-## Level 1 Process
+   // Conditional statement
+   if (age >= 18) {
+     console.log("You are an adult.");
+   } else {
+     console.log("You are a minor.");
+   }
 
-1.	Decide on the theme for the blog you’re going to make
-2.	Create a prototype of the website
-3.	Install WordPress on your web host and add the blogs on the admin panel. 
-4.	Use the GitHub repo created by GitHub Classroom for your files and deploy to Netlify
-5.	Build your website using HTML, CSS and JavaScript making a call to the WordPress REST API to fetch your data.
-6.	Install Hotjar on your website.
-7.	Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
-8.	Write a report documenting your project (template provided in this repository).
-9.	Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
- 
-## Level 2 Process (optional)
+   // Function
+   function greet(name) {
+     return "Hello, " + name + "!";
+   }
 
-1.	You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for. 
-2.	Post the data from the contact form to WordPress so you have the details saved.
-3.	Allow users to submit comments on a blog post, and post this data to WordPress
+   // Function call
+   var greeting = greet("Alice");
+   console.log(greeting);```
+  ````
 
+
+HTML and CSS work together to create a visually appealing and user-friendly website for this Science Museum. HTML defines the structure and content, while CSS enhances the presentation and styling, resulting in an engaging online experience for visitors.
+
+## Getting Started
+
+Here are the popular development tools used for building this website:
+
+- Text Editor-these are lightweight tools that primarily focus on code editing.
+
+   Visual Studio Code (VSC) as a code editor to build HTML and CSS files.
+
+   This is a popular choice among web developers.
+
+- Browser Development Tools: - Chrome DevTools - Firefox Developer Tools
+   Built-in browser developer tools that allow developers to inspect, debug, and profile web pages in real time, aiding in troubleshooting and
+   optimization.
+
+### Installing
+
+- Figma is a collaborative design tool that I used for creating user interfaces (UI), to create designs and prototypes.
+- GitHub:
+  Create a new repository on the GitHub homepage.
+  A repository on GitHub, which is a version control platform for managing this project.
+  Clone the repository to the local machine using Git, which can be installed from git-scm.com.
+  Initialize the repository with an empty HTML and CSS file. Open the terminal, navigate to the project folder, and use the command: git init
+
+### Running
+
+Use Git commands (git add, git commit, git push) to track and commit the changes to the local repository.
+Push the committed changes to the GitHub repository using the command: git push -u origin main.
+Utilize version control practices, such as creating branches (git branch) for new features or bug fixes and merging them (git merge) back into the main branch.
+
+## Contact
+
+This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+
+[My Twitter page](www.twitter.com)
+
+[My LinkedIn page](www.linkedin.com)
